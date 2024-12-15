@@ -20,39 +20,33 @@ DEPENDENCIAS_UBUNTU_23_04='sed:amd64 x11-utils:amd64 libvulkan-dev:amd64 libc6:i
 DEPENDENCIAS_UBUNTU_GENERAL='libvkd3d1:amd64 libfontconfig1:i386 libfreetype6:i386 libasound2:i386 libglib2.0-0:i386 libgphoto2-6:i386 libgphoto2-port12:i386 libgstreamer-plugins-base1.0-0:i386 libgstreamer1.0-0:i386 liblcms2-2:i386 libmpg123-0:i386 libopenal1:i386 libpcap0.8:i386 libpulse0:i386 libudev1:i386 libx11-6:i386 libxext6:i386 libxml2:i386 ocl-icd-libopencl1:i386 libz-mingw-w64:amd64 libcapi20-3:i386 libcups2:i386 libdbus-1-3:i386 libgl1:i386 libgnutls30:i386 libgsm1:i386 libgssapi-krb5-2:i386 libjpeg8:i386 libkrb5-3:i386 libodbc1:i386 libosmesa6:i386 libpng16-16:i386 libsdl2-2.0-0:i386 libtiff5:i386 libv4l-0:i386 libxcomposite1:i386 libxcursor1:i386 libxfixes3:i386 libxi6:i386 libxinerama1:i386 libxrandr2:i386 libxrender1:i386 libxslt1.1:i386 libxxf86vm1:i386 libgl1-mesa-dri:i386 libasound2-plugins:i386 gstreamer1.0-plugins-good:i386 gstreamer1.0-libav:i386 gstreamer1.0-plugins-bad:i386 gstreamer1.0-plugins-bad:amd64 gstreamer1.0-plugins-ugly:i386 gstreamer1.0-plugins-ugly:amd64 libva-wayland2:amd64 libva-wayland2:i386 mesa-vdpau-drivers:amd64 mesa-vdpau-drivers:i386 vdpau-driver-all:amd64 vdpau-driver-all:i386 libasound2-plugins:amd64 libasound2-plugins:i386 libcapi20-3:amd64 libcapi20-3:i386 libosmesa6:i386 libosmesa6:amd64 libsdl2-2.0-0:amd64 libsdl2-2.0-0:i386 tdsodbc:amd64 tdsodbc:i386 gstreamer1.0-libav:amd64 gstreamer1.0-libav:i386'
 
 
-
 ###############  Início do  Bloco de funções  #############################
 
 TEXTO_BOAS_VINDAS='
-                      🔵'$GAMENAME' Linux. 🔵
+                      '$GAMENAME' Linux.
 
-Sistema para instalar dependências de 32bits para jogos nativos de Linux e
-jogos de windows 32bits que rodam através do wine e do proton.
+Olá e seja bem-vindo ao nosso sistema de instalação de dependências de 32 bits para jogos nativos de Linux e jogos Windows de 32 bits que rodam através do Wine e do Proton.
 
-Este Sistema busca dependências de 32bits no repositório da sua distro
-e as instala usando o próprio gerenciador de pacores da distro.
+Nosso sistema busca as dependências de 32 bits necessárias diretamente no repositório da sua distribuição Linux e as instala utilizando o gerenciador de pacotes padrão da sua distro.
 
-Desta forma é possível ter dependências básicas de 32bits e 64bits 
-como drivers de Áudio e Vídeo e seus respectivos codecs para o correto
-funcionamento dos jogos 32bits ou i386,i686.
+Com isso, você poderá garantir a presença das dependências básicas tanto de 32 bits quanto de 64 bits, como drivers de áudio e vídeo, juntamente com seus respectivos codecs, essenciais para o funcionamento adequado dos jogos 32 bits ou i386/i686.
 
-Note o Benefício. Se simplesmente instalar o wine terá consequentemente
-suas respectivas dependências i386,i686 (32bits) porém terá o wine 
-instalado na sua máquina podendo executar todo maldito arquivo.exe.
-Este wine não é necessário para este projeto porque os AppImages 
-já tem seu próprio wine dentro na versão necessária ou melhor 
-versão para o jogo comsiderando a compatibilidade e a performance. 
+É importante ressaltar o benefício desse sistema. Ao instalar simplesmente o Wine, você obterá automaticamente as dependências i386/i686 (32 bits), porém o Wine será instalado em sua máquina, permitindo a execução de qualquer arquivo .exe. No entanto, para este projeto, o Wine não é necessário, pois os AppImages já incluem sua própria versão do Wine na medida certa ou até mesmo otimizada para o jogo, levando em consideração a compatibilidade e o desempenho.
 
-Este sistema suporta: 
+Nosso sistema é compatível com as seguintes distribuições:
+- Debian 11
+- Ubuntu 18.04 LTS
+- Ubuntu 20.04 LTS
+- Ubuntu 22.04 LTS
+- Ubuntu 23.04
+- ArchLinux com repositório multilib habilitado
+- Manjaro
+- Fedora 36 e 37 Workstation
+- OpenSUSE Tumbleweed
 
-Debian 11, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS,
-Ubuntu 23.04, ArchLinux com Repositório multilib habilitado e Manjaro.
-Fedora 36 e 37 Workstation, OpenSUSE Tumbleweed.
-Tentativa de suporte ao Fedora Silverblue (não recomendo.)
- 
-              🇧🇷 Inscreva-se Nos canais : 🇧🇷 GameLinux 🇧🇷
+Estamos trabalhando para oferecer suporte ao Fedora Silverblue, embora neste momento não o recomendemos completamente devido a possíveis limitações.
 
-                 🔴 https://odysee.com/@gamelinux 🔴'
+Esperamos que nosso sistema facilite a instalação e o uso dos seus jogos favoritos em Linux.'
          
 if 
      zenity --help >/dev/null
