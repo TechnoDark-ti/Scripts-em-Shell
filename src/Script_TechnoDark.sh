@@ -52,13 +52,13 @@ sudo apt install -y zenity sed x11-utils libvulkan-dev libx11-data libc6:i386 \
 
 
 # Utilitários padrão de Desktop (retirado kdenlive e audacity)
-sudo apt install libreoffice libreoffice-l10n-bn inkscape -y
+sudo apt install libreoffice libreoffice-l10n-bn  -y #inkscape
 # Utilitários de Mídia para desktop + acesso remoto
-sudo apt install vlc audacious remmina -y
+sudo apt install vlc remmina -y #audacious
 # Ferramentas e configurações para Linux
-sudo apt install vim htop net-tools wine neofetch flatpak git plocate -y
+sudo apt install vim net-tools wine neofetch git plocate -y # flatpak htop
 #Linguagens de programação
-sudo apt install lua5.4 openjdk-19-jdk openjdk-8-jre gcc g++ -y
+#sudo apt install lua5.4 openjdk-19-jdk openjdk-8-jre gcc g++ -y
 
 # Bibliotecas para desenvolvimento Python
 sudo apt install python3-pip python3-virtualenv -y
