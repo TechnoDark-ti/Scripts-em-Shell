@@ -1,0 +1,14 @@
+# created by virtualenv automatically
+/bin/
+/include/
+/lib/
+/lib64/
+
+*.bin
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.cache
+*.cfg
