@@ -7,7 +7,7 @@ DEPENDENCIAS_I386_AMD64_MULTILIB_BASE_ARCH='mesa lib32-mesa faudio lib32-faudio 
 
 
 TEXTO_BOAS_VINDAS='
-                      🔵'$GAMENAME' Linux. 🔵
+                      🔵'$GAMENAME'  🔵
 
 Sistema para instalar dependências de 32bits para jogos nativos de Linux e
 jogos de windows 32bits que rodam através do wine e do proton.
@@ -32,10 +32,7 @@ Debian 11, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS,
 Ubuntu 23.04, ArchLinux com Repositório multilib habilitado e Manjaro.
 Fedora 36 e 37 Workstation, OpenSUSE Tumbleweed.
 Tentativa de suporte ao Fedora Silverblue (não recomendo.)
- 
-              🇧🇷 Inscreva-se Nos canais : 🇧🇷 GameLinux 🇧🇷
-
-                 🔴 https://odysee.com/@gamelinux 🔴'
+                 '
 
 if 
      zenity --help >/dev/null
