@@ -1,6 +1,6 @@
-Autor: Robson Vaamonde<br>
-Data de criação: 18/01/2023<br>
-Data de atualização: 19/03/2025<br>
+Autor: Márcio Moda<br>
+Data de criação: 25/03/2025<br>
+Data de atualização: --/--/20--<br>
 Versão: 0.18<br>
 Testado e homologado no GNU/Linux Ubuntu Server 22.04.x LTS
 
