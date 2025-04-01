@@ -22,8 +22,3 @@ O QUE É E PARA QUE SERVER O UBUNTU SERVER: é uma versão do sistema operaciona
 
 Link de download do Ubuntu Server: https://releases.ubuntu.com/24.04/
 
-```bash
-A) Versão do download Ubuntu Server: ubuntu-22.04.5-live-server-amd64.iso (Link atualizado em 12/09/2024)
-B) Arquitetura do Ubuntu Server: AMD64 (64-bit)
-C) Tipo de instalação: DVD Image (ISO) Installer
-```
