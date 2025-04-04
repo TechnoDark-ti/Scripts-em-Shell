@@ -49,19 +49,3 @@ sudo apt install -y zenity sed x11-utils libvulkan-dev libx11-data libc6:i386 \
                     libncurses6:i386 libncursesw6:i386 libncurses5:i386 libncursesw5:i386 \
                     libvkd3d1 libidn11:i386 libldap-2.5-0:i386 ocl-icd-libopencl1:i386 \
                     libssl3:i386 libwebp7:i386 libfuse2 libfuse3-3
-
-
-# Utilitários padrão de Desktop (retirado kdenlive e audacity)
-sudo apt install libreoffice libreoffice-l10n-bn  -y #inkscape
-# Utilitários de Mídia para desktop + acesso remoto
-sudo apt install vlc remmina -y #audacious
-# Ferramentas e configurações para Linux
-sudo apt install vim net-tools wine neofetch git plocate -y # flatpak htop
-#Linguagens de programação
-#sudo apt install lua5.4 openjdk-19-jdk openjdk-8-jre gcc g++ -y
-
-# Bibliotecas para desenvolvimento Python
-sudo apt install python3-pip python3-virtualenv -y
-sudo apt install libmpv1 libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev -y
-sudo apt install libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good -y
-sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.
