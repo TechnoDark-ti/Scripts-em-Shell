@@ -37,7 +37,6 @@ sudo reboot
 sudo localectl
 sudo locale -a
 
-
 #verificando as informações de fuso horário do sistema
 sudo timedatectl
 
