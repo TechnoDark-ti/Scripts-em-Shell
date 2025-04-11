@@ -1,5 +1,5 @@
 #!/bash/bin
-
+# Script to install Apache
 sudo apt update && sudo apt upgrade -y 
 
 sudo apt install -y apache2 libapache2-mod-php \
