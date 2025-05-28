@@ -1,11 +1,10 @@
 # @Author: Márcio Moda
 # Data: 03-04-2025
-#
-#
+
 ## O que esse código faz? ##
 # Ele instala o Samba 4 e configura um domínio Active Directory (AD) no Ubuntu Server ou Derivados.
 # E também configura o DNS e o Kerberos, além de realizar testes de funcionamento do Samba 4.
-########### FIM DOS COMENTÁROIOS ###########
+########### FIM DOS COMENTÁRIOS ###########
 
 #!/bin/bash
 
