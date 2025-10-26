@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#====================================#
+# Author: Márcio Moda
+# Li
+#
+#
+#=====================================#
+
+
 # Parar o script em caso de erro
 set -e
 
