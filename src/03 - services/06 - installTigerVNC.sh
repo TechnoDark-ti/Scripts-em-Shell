@@ -4,6 +4,15 @@
 #
 #@Author: Márcio Moda 
 
+###############################################################
+#
+#
+#  ATENÇÃO! PARA DISTROS BASEADAS NO UBUNTU 24.04 ESTÁ QUEBRADA
+#
+#
+##############################################################
+
+
 #instalação do serviço vnc server
 sudo apt install tigervnc-standalone-server
 
